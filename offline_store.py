@@ -1,4 +1,4 @@
-# This is an example feature definition file
+# This is an example feature definition file for snowflake
 
 from datetime import timedelta
 from pathlib import Path
