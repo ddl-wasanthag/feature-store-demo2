@@ -22,15 +22,11 @@ current = Path.cwd()
 # Read form snowflake
 
 driver_stats_source = SnowflakeSource(
-    
     database='FEAST', 
-   
     table='DRIVER_STATS',
-    
-# The event timestamp is used for point-in-time joins and ensuring that only features within the TTL are returned.
-    
+    # The event timestamp is used for point-in-time joins and ensuring that only features within the TTL are returned.
     event_timestamp_column="event_timestamp",
-# The (optional) created timestamp is used to ensure there are no duplicate feature rows in the offline store or when building training datasets.
+    # The (optional) created timestamp is used to ensure there are no duplicate feature rows in the offline store or when building training datasets.
     created_timestamp_column="created",
 ) 
 
