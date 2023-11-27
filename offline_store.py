@@ -24,6 +24,8 @@ current = Path.cwd()
 driver_stats_source = SnowflakeSource(
     database='FEAST', 
     table='DRIVER_STATS',
+    timestamp_field="event_timestamp",
+    created_timestamp_column="created",
 ) 
 
 # Define an entity for the driver. You can think of an entity as a primary key
