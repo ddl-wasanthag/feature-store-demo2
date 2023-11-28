@@ -1,20 +1,21 @@
 
-L
+J
 ,
-driver	driver id"	driver_idJdomino_feast
-É›˜«øûô×É›˜«øûô×
-C
+driver	driver id"	DRIVER_IDJdomino_feast
+† ˜«€ú›!† ˜«€ú›!
+A
 #
 __dummy"
-__dummy_idJdomino_feast
-É›˜«È£í×É›˜«Èüù×1"$bf8759b9-942c-4f9d-ba09-bec0365251e1*Ê›˜«Èƒñû2¬
-‹
+__dummy_idJdomino_feast
+† ˜«ˆ³–!† ˜«À¬ !1"$fdf71fdd-0355-4878-8af4-de1a25153081*† ˜«¨ç¤”2¹
+š
 driver_hourly_statsdomino_feastdriver"
-	conv_rate"
-acc_rate"
-avg_daily_trips*
-teamdriver_performance2€£:‰event_timestamp*createdŠ;feast.infra.offline_stores.snowflake_source.SnowflakeSourceš
-DRIVER_STATSPUBLIC"FEAST¢DRIVER_STATS
-ù”•«ˆ‹ê»ù”•«ˆ‹ê»b˜event_timestamp*createdŠ;feast.infra.offline_stores.snowflake_source.SnowflakeSourceš
+	CONV_RATE"
+ACC_RATE"
+AVG_DAILY_TRIPS*
+teamdriver_performance2€£:‰EVENT_TIMESTAMP*CREATEDŠ;feast.infra.offline_stores.snowflake_source.SnowflakeSourceš
+DRIVER_STATSPUBLIC"FEAST¢DRIVER_STATSb
+	DRIVER_ID
+† ˜«øÅÌ † ˜«øÅÌ b˜EVENT_TIMESTAMP*CREATEDŠ;feast.infra.offline_stores.snowflake_source.SnowflakeSourceš
 DRIVER_STATSPUBLIC"FEAST¢DRIVER_STATSªdomino_feastz4
 domino_feast$2a1170e9-7939-45b5-9d32-c93f64f8e9d6
