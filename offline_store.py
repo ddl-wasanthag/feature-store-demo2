@@ -54,7 +54,7 @@ driver_stats_fv = FeatureView(
         Field(name="acc_rate", dtype=Float32),
         Field(name="avg_daily_trips", dtype=Int64),
     ],
-    online=True,
+    online=False,
     source=driver_stats_source,
     # Tags are user defined key/value pairs that are attached to each
     # feature view
