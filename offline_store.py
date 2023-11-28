@@ -24,15 +24,15 @@ current = Path.cwd()
 driver_stats_source = SnowflakeSource(
     database='FEAST', 
     table='DRIVER_STATS',
-    timestamp_field="event_timestamp",
-    created_timestamp_column="created",
+    timestamp_field="EVENT_TIMESTAMP",
+    created_timestamp_column="CREATED",
 ) 
 
 # Define an entity for the driver. You can think of an entity as a primary key
 # used to fetch features.
 driver = Entity(
     name="driver",
-    join_keys=["driver_id"],
+    join_keys=["DRIVER_ID"],
     description="driver id",
 )
 
@@ -50,9 +50,9 @@ driver_stats_fv = FeatureView(
     # for both materialization of features into a store, and are used as references
     # during retrieval for building a training dataset or serving features
     schema=[
-        Field(name="conv_rate", dtype=Float32),
-        Field(name="acc_rate", dtype=Float32),
-        Field(name="avg_daily_trips", dtype=Int64),
+        Field(name="CONV_RATE", dtype=Float32),
+        Field(name="ACC_RATE", dtype=Float32),
+        Field(name="AVG_DAILY_TRIPS", dtype=Int64),
     ],
     online=False,
     source=driver_stats_source,
