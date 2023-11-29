@@ -59,4 +59,5 @@ driver_stats_fv = FeatureView(
     # Tags are user defined key/value pairs that are attached to each
     # feature view
     tags={"team": "driver_performance"},
+    description="driver stats feature view"
 )
