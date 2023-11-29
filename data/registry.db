@@ -1,22 +1,21 @@
 
-L
+J
 ,
-driver	driver id"	DRIVER_IDJdomino_feast
-Õ®˜«ÈÊ±½Õ®˜«ÈÊ±½
-C
+driver	driver id"	DRIVER_IDJdomino_feast
+£‹«è™±A£‹«è™±A
+A
 #
 __dummy"
-__dummy_idJdomino_feast
-Õ®˜«À‹¹½Õ®˜«Øô½½1"$5e13cee7-ef58-4aca-b7ad-e0f9f26a3ab8*£š«°øÆ™2Ï
-œ
+__dummy_idJdomino_feast
+£‹«˜ø¶A£‹«Â»A1"$db25d098-2908-4657-b4b0-d4e0273ad717*£‹«°èß2Ö
+·
 driver_hourly_statsdomino_feastdriver"
 	CONV_RATE"
 ACC_RATE"
 AVG_DAILY_TRIPS*
 teamdriver_performance2€£:‰EVENT_TIMESTAMP*CREATEDŠ;feast.infra.offline_stores.snowflake_source.SnowflakeSourceš
-DRIVER_STATSPUBLIC"FEAST¢DRIVER_STATS@b
-	DRIVER_ID.
-Õ®˜«¸×¼£š«¸‹¤™
-áõ™˜£š«b˜EVENT_TIMESTAMP*CREATEDŠ;feast.infra.offline_stores.snowflake_source.SnowflakeSourceš
+DRIVER_STATSPUBLIC"FEAST¢DRIVER_STATS@Rdriver stats feature viewb
+	DRIVER_ID
+£‹«àîŞ@£‹«àîŞ@b˜EVENT_TIMESTAMP*CREATEDŠ;feast.infra.offline_stores.snowflake_source.SnowflakeSourceš
 DRIVER_STATSPUBLIC"FEAST¢DRIVER_STATSªdomino_feastz4
 domino_feast$2a1170e9-7939-45b5-9d32-c93f64f8e9d6
